@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Index</title>
+    <style>
+        nav{
+            height: 90px;
+            animation: mymove 2s infinite alternate;
+            
+            
+        }
+
+        @keyframes mymove{
+            from{
+                background-image:url(https://th.bing.com/th/id/OIP.T1qphJ5-Gs_3XR4cBiyA1AHaFj?pid=ImgDet&rs=1);
+                background-size: cover;
+                background-repeat: repeat;
+
+            }
+
+            to{
+                background-image:url(https://th.bing.com/th/id/R.bf8ecd304b3d95c085e25e9325899540?rik=RuJG47sZ5YPLgA&riu=http%3a%2f%2ffc01.deviantart.net%2ffs71%2ff%2f2011%2f281%2fd%2f2%2fd28f576ed3c7338187b8e69d72cce67a-d4c5ews.jpg&ehk=OIkmOE8PAEDx2F69aSTA6rxCHXmvqYEiqLBaJ8vVuM0%3d&risl=&pid=ImgRaw&r=0);
+                background-size: cover;
+                background-repeat: repeat;
+
+            }
+
+
+        }
+
+        body{
+            background-image: url(https://th.bing.com/th/id/R.cc04dc74f32761b1d29d29c860e5356b?rik=l3jRNQeJrZdoOQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f6jFZ4rg.jpg&ehk=dhdmAOvj3TRv5aqaIZHWsh8VFz8HJtVHRknx3eG77Ck%3d&risl=&pid=ImgRaw&r=0);
+            background-repeat: repeat;
+            background-size: cover;
+        }
+
+        a{
+            font-weight: bold;
+            color: white!important;
+            font-family: verdana;
+            font-size: 28px!important;
+        }
+
+        #body{
+            padding-top: 100px;
+            color: white;
+        }
+
+        a:hover{
+            color: yellow!important;
+            border: 5px solid grey;
+            border-radius: 10px; 
+            transform:translateY(-7px)
+        }
+
+        #blackhole1{
+            width: 1500px;
+            height: 1000px;
+        }
+
+        .spaces{
+            height: 200px;
+        }
+
+        #victim{
+            height: 120px;
+            width: 200px;
+            position: relative;
+            animation: blackhole 4s infinite;
+
+            
+
+        }
+
+        #victim{
+            animation-timing-function: linear;
+        }
+
+        @keyframes blackhole{
+            from{
+                left: 0px;
+                height: 150px;
+                background-image: url(happyman.png);
+                background-size: cover;
+                background-repeat: repeat;
+            }
+            
+            to{
+                left: 600px;
+                height: 150px;
+                background-image: url(sadman.png);
+                background-size: cover;
+                background-repeat: repeat;
+
+            }
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Home</a>
+          <a class="navbar-brand" href="/about.html">About</a>
+          <a class="navbar-brand" href="/galary.html">Q and A</a>
+          <a class="navbar-brand" href="/contact.html">Uniqueness</a>
+          
+      </nav>
+
+      <section id="body">
+
+        <h1>Black Hole Stars</h1>
+        <p>A quasi-star is a hypothetical type of star that contains a black hole at its core. It is believed to have formed when the core of a large protostar collapses into a black hole during its formation and the outer layers of the star are massive enough to absorb the resulting burst of energy without being blown away. Quasi-stars are believed to be the origins points of supermassive black holes, the centers of many galaxies. This theory of a black hole stars makes sennse when it comes to understanding how come there are absolutely supermassive black holes. Like TON 618, the largest black hole known, it has a whopping 66 billion times the mass of the Sun and its size is 40 times the orbit of neptune, and the Quasi star itself it around. For more information about Quasi stars, check the black hole stars kurzegasgt video of black hole stars on youtube. Check out the spagettification with black holes down below</p>
+
+        <div style="background-image:url(blackhole.png); background-size: cover; background-repeat: repeat; " id="blackhole1">
+            <div class="spaces"></div>
+            <div class="spaces"></div>
+            <div id="victim"></div>
+        </div>
+
+
+
+
+
+      </section>
+      
+</body>
+</html>
